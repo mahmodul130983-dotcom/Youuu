@@ -1,0 +1,247 @@
+/* ==========================================
+   RESET
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    width:100vw;
+    height:100vh;
+
+    overflow:hidden;
+
+    font-family:
+    "Poppins",
+    sans-serif;
+
+    background:
+    linear-gradient(
+    to top,
+    #081220,
+    #132b52,
+    #21437a
+    );
+
+}
+
+/* ==========================================
+   MOON
+========================================== */
+
+.moon{
+
+    position:absolute;
+
+    width:170px;
+    height:170px;
+
+    top:60px;
+    right:90px;
+
+    border-radius:50%;
+
+    background:#fffef7;
+
+    box-shadow:
+
+    0 0 40px #ffffff,
+
+    0 0 120px rgba(255,255,255,.55);
+
+}
+
+/* ==========================================
+   STARS
+========================================== */
+
+.stars{
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+
+    radial-gradient(white 1px,transparent 1px);
+
+    background-size:90px 90px;
+
+    opacity:.85;
+
+}
+
+/* ==========================================
+   TITLE
+========================================== */
+
+.title{
+
+    position:absolute;
+
+    top:35px;
+
+    width:100%;
+
+    text-align:center;
+
+    color:white;
+
+    z-index:20;
+
+}
+
+.title h1{
+
+    font-size:52px;
+
+    text-shadow:
+
+    0 0 20px rgba(255,255,255,.5);
+
+}
+
+.title p{
+
+    margin-top:15px;
+
+    font-size:22px;
+
+    color:#ffe7f1;
+
+    line-height:1.7;
+
+}
+
+/* ==========================================
+   GARDEN
+========================================== */
+
+.garden{
+
+    position:absolute;
+
+    bottom:0;
+
+    width:100%;
+
+    height:250px;
+
+    background:
+
+    linear-gradient(
+
+    #2d8a44,
+
+    #174d28
+
+    );
+
+}
+
+/* ==========================================
+   LILY
+========================================== */
+
+.lily-group{
+
+    position:absolute;
+
+    left:40px;
+
+    bottom:30px;
+
+    display:flex;
+
+    gap:25px;
+
+}
+
+.lily-group img{
+
+    width:130px;
+
+    animation:
+
+    sway 4s ease-in-out infinite;
+
+}
+
+/* ==========================================
+   RAJANIGANDHA
+========================================== */
+
+.rajanigandha-group{
+
+    position:absolute;
+
+    right:40px;
+
+    bottom:30px;
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.rajanigandha-group img{
+
+    width:120px;
+
+    animation:
+
+    sway 5s ease-in-out infinite;
+
+}
+
+/* ==========================================
+   CHARACTERS
+========================================== */
+
+.scene{
+
+    position:absolute;
+
+    bottom:120px;
+
+    width:100%;
+
+    height:500px;
+
+}
+
+/* SHANTO */
+
+.shanto{
+
+    position:absolute;
+
+    left:20%;
+
+    bottom:0;
+
+    width:260px;
+
+}
+
+/* SUMU */
+
+.sumu{
+
+    position:absolute;
+
+    right:20%;
+
+    bottom:0;
+
+    width:250px;
+
+}
+
+/* ==========================================
+   AN
